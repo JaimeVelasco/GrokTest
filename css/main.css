@@ -1,0 +1,247 @@
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+
+/**************** Header Styles ****************/
+#topBar{
+	background: #ddd;
+	padding-top: 1.5rem;
+	padding-bottom: 0.5rem;
+	box-shadow: 0px 1px 10px #888888;
+	z-index: 500;
+}
+
+#topBar .menu a span{
+	font-size: 1.4em;
+	text-shadow: 1px 1px #666;
+    color:#fff;
+	font-style: italic;
+}
+
+#topBar a h1{
+	transform: scale(1,2);
+	position: relative;
+
+}
+
+#topBar .ui.menu{
+	margin: 0% 15% 0% 15%;
+}
+
+#topBar .ui.transparent.inverted.input{
+	background: #666;
+	padding: 5px;
+	margin: 0px;
+}
+
+#bvd_btn{
+	padding-bottom: 0.15em;
+	padding-top: 0.1em;
+	font-size: 1em;
+	font-weight: lighter;
+}
+
+#mainMenu{
+	background: #eee;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	box-shadow: 0px 1px 10px #3d3d3d;
+	z-index: 400;
+}
+
+#mainMenu .ui.menu{
+	margin: 0% 15% 0% 15%;
+	text-transform: uppercase;
+	
+}
+
+#mainMenu .ui.menu .item>a { /*would love to figure out why I must leave a space  between .menu and .item in this selector*/
+	color: #666;
+}
+
+
+
+/**************** Main Content Styles ****************/
+
+#header{
+	width: 100%;
+	background: #2787b8;
+	z-index: 300;
+	padding: 60px 0px 40px 0px;
+}
+
+#header .ui.grid{
+	margin: 0% 15% 0% 15%;
+	color: #fff;
+}
+
+#header .ui.grid h1{
+	font-size: 2.7rem;
+	font-weight: 100;
+	padding-bottom: 1rem;
+}
+
+#header .ui.grid h2{
+	font-size: 1.5rem;
+	font-weight: 300;
+	margin-bottom: 1.5rem;
+}
+
+#header .ui.grid p{
+	font-size: 1rem;
+	font-weight: 100;
+	line-height: 0.7rem;
+	margin-bottom: 4rem;
+}
+
+#header .header{
+	color: #fff;
+	font-weight: 100;
+}
+
+#mainContent{
+	width: 100%;
+	background: #d2d2d1;
+	padding: 60px 0px 40px 0px;
+}
+
+#mainContent .ui.grid{
+	margin: 0% 15% 0% 15%;
+	z-index: 250;
+	background: #ddd;
+	position: relative;	
+}
+
+#border_radius_top{
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+#mainContent>hr {
+	margin: 0% 14% 0% 14%;
+	-webkit-box-shadow: 0px -4px 16px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px -4px 16px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px -4px 16px 0px rgba(50, 50, 50, 0.75);
+	z-index: 200;
+}
+
+
+#mainContent .ui.piled.segment {
+	padding:0px;
+}
+
+#mainContent .ui.list .item {
+	line-height:1em;
+	float:left;
+	display:inline;
+}
+
+#mainContent .double .item {
+	 width:50%;
+} 
+
+#mainContent .ui.left.floated.column {
+	margin-top: 2rem;
+}
+
+#freelance {
+	font-style: italic;
+}
+
+#saying {
+	margin-top: 3rem;
+	padding: 3rem 5rem;
+	background: transparent;
+	border: 15px solid #d1d1d1;
+}
+/**************** Footer Styles ****************/
+
+footer{
+	height: auto;
+	width: 100%;
+	background: #4b4d4a;
+}
+
+#footer{
+	margin: 0 15% 0 15%;
+}
+
+#footer .ui.basic.segment{
+	padding-right: 0rem;
+	padding-left: 0rem;
+}
+
+#footer .ui.header:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
+	color: #fff;
+	font-size: 0.8em;
+	margin-bottom: 1px;
+	font-weight: 100;
+}
+#footer .ui.mini.button{
+ 	padding: .58571em 0.7em;
+}
+
+#footer .ui.clearing.divider{
+ 	margin-bottom: 2rem;
+}
+
+#footer .ui.feed>.event{
+	margin-bottom: 1rem;
+}
+
+#footer .ui.feed>.event>.label+.content{
+	padding: 0 0 8px 10px;
+}
+
+#footer .ui.feed>.event>.content .date{
+ 	color: #fff;
+ 	font-weight: 700;
+	padding: 0 0px 10px 0px;
+}
+
+#footer .ui.feed>.event>.content a{
+	color: #fff;
+	font-weight: 700;
+}
+
+#footer .ui.feed>.event>.content .summary{
+ 	color: #fff;
+ 	font-weight: 100;
+}
+
+#footer .ui.small.image{
+	float: left;
+	width: 100px;
+	margin-right: 10px;
+    margin-bottom: 8px;
+    border: 3px solid #fff;
+}
+
+#bottom-bar{
+	background: #dcdcda;	
+}
+
+#bottom-bar .ui.small.menu {
+	text-transform: uppercase;
+}
+
+#bottom-bar .ui.menu{
+	margin: 0% 15% 0% 15%;
+}
+
+#bottom-bar .menu span{
+	font-size: 0.7em;
+	font-style: italic;
+	vertical-align: middle;
+}
+
+#bottom-bar .brand {
+	font-weight: 900;
+	color: #8e8e8e;
+}
+/**************** Media Queries ****************/
